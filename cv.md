@@ -1,14 +1,17 @@
-Javascript Developer CV
 # Andrei Chuyanov
-### Contact Information
-* e-mail: achuyanov@gmail.com
+
+## Contact Information
+
+* e-mail: <achuyanov@gmail.com>
 * GitHub : achuyanov, ach792
 * mobile: +375297540133
 
-### Self-Introduction
-(your goals and priorities, emphasize your strengths, describe your work experience if applicable, or your desire to learn and acquire new skills)
+## Self-Introduction
 
-### Skills
+* I want to update my knowledge and gain skills in new technologies
+
+## Skills
+
 * Windows, Linux, MacOS, FreeBSD
 * SVN, Git
 * HTML/CSS/JS
@@ -16,8 +19,9 @@ Javascript Developer CV
 * base knowledge C++/C#, Python, Dart(Flutter), VB
 * SQL, CMS systems
 
-### Code Example
-```
+## Code Example
+
+```JavaScript
 function (files = [], zipFilename) {
   const
     fs = require('fs'),
@@ -34,12 +38,18 @@ function (files = [], zipFilename) {
      .then(function (blob) { fs.writeFileSync(outputzip, blob); })
 }
 ```
-### Work Experience
+
+## Work Experience
+
 * Engineering automation projects ~ 10 years.
-### Education
+
+## Education
+
 * Belarusian National Technical University \  Mechanical Engineering Department 2003
 * Codecademy courses : Introduction to HTML, Learn CSS, Introduction to JavaScript
 * RSSchool courses : JS/FE19, RS IOS, RS NodeJS
-### English Language
+
+## English Language
+
 * English - B2
 * Polish - A2
