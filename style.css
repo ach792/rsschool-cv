@@ -1,0 +1,96 @@
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+.mainblock {
+  max-width: 800px;
+  margin: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: square;
+}
+
+p {
+  padding-left: 24px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+header p {
+  padding-left: 0px;
+}
+
+figure {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.subsection {
+  margin: 0px;
+  padding: 0px;
+}
+
+.subsection h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  line-height: 1.25;
+
+}
+
+.subsection h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  line-height: 1.25;
+  word-wrap: break-word;
+}
+
+.code {
+  width: 700px;
+  padding: 8px;
+  overflow: auto;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  margin-left: 24px;
+}
+
+.email {
+  color: blue;
+}
+
+.footer_items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+  padding: 0px;
+}
+
+.footer_items li {
+  font-size: 16px;
+  display: inline-block;
+  width: 20%;
+
+}
