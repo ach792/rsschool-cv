@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>AChuyanov CV</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+    <div class="mainblock">
+        <header class="header">
+            <p>Frontend Developer CV</p>
+        </header>
+
+        <main>
+            <section class="subsection" id="name">
+                <h1>Andrei Chuyanov</h1>
+                <figure>
+                    <img src="images/ach.JPG" alt="ACH photo" width="101" height="101">
+                </figure>
+            </section>
+            <hr>
+            <section class="subsection" id="contacts">
+                <h2>Contacts</h2>
+
+                <ul>
+                    <li>email: <span class="email">achuyanov@gmail.com</span></li>
+                    <li>GitHub : achuyanov, ach792</li>
+                    <li>mobile: +375297540133</li>
+                </ul>
+            </section>
+
+            <section class="subsection" id="summary">
+                <h2>Summary</h2>
+                <p>I want to update my knowledge and gain skills in new technologies</p>
+            </section>
+
+            <section class="subsection" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Windows, Linux, Sun Solaris, FreeBSD</li>
+                    <li>SVN, Git</li>
+                    <li>HTML/CSS/JS</li>
+                    <li>NodeJS</li>
+                    <li>base knowledge C++/C#, Python, Dart(Flutter), VB</li>
+                    <li>SQL, CMS systems</li>
+                </ul>
+            </section>
+
+            <section class="subsection" id="code-example">
+                <h2>Code example</h2>
+                <pre class="code">
+                  function (files = [], zipFilename) {
+                    const
+                      fs = require('fs'),
+                      JSZip = require('jszip'),
+                      zip = new JSZip();
+
+                    for (let file of files) {
+                      zip.file(file.fileName, fs.readFileSync(file.fullFilePath));
+                    }
+
+                    const outputzip = R.getOutputFile(zipFilename);
+
+                    zip.generateAsync({ type: "nodebuffer" })
+                       .then(function (blob) { fs.writeFileSync(outputzip, blob); })
+                  }
+                </pre>
+            </section>
+
+
+            <section class="subsection" id="experience">
+                <h2>Experience</h2>
+                <p>Engineering automation projects ~ 10 years.</p>
+            </section>
+
+
+            <section class="subsection" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Belarusian National Technical University \ Mechanical Engineering Department</li>
+                    <li>Codecademy courses : Introduction to HTML, Learn CSS, Introduction to JavaScript</li>
+                    <li>RSSchool courses : JS/FE19, RS IOS, RS NodeJS</li>
+                </ul>
+            </section>
+
+
+            <section class="subsection" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - B2</li>
+                    <li>Polish - A2</li>
+                </ul>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <ul class="footer_items">
+                <li><a href="https://github.com/ach792"><img src="images/ghLogo.svg" width="50" height="50"
+                            alt="Git logo" /></a>2022</li>
+                <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"
+                            height="50" alt="RSSchool" /></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
